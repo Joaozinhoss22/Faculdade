@@ -9,12 +9,49 @@
 header {
     background-color: rgba(2, 150, 2, 0.904);
     color: white;
-    padding: 30px 30px 60px  ;
-    
+    padding: 30px 30px 40px  ;
 }
 
-nav ul a{
+
+nav {
+    background-color:rgba(2, 150, 2, 0.904);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+
+nav a {
+    
     text-decoration: none;
     color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+main {
+    margin: auto;
     padding: 30px;
+}
+
+main h2 {
+    margin: auto;
+    padding: 30px -0px;
+}
+
+main p {
+    text-indent: 8px;
+    padding-top: 20px;
+}
+
+main ul li {
+    padding-left: 30px;
+    list-style-position: inside;
+}
+
+footer {
+    background-color: rgba(2, 150, 2, 0.904);
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 16px;
+    margin-top: 120px;
 }
