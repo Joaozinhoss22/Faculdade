@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(33, 33, 192, 0.932);
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    padding: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    color: white;
+    padding: 20px;
+}
+
+nav  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+button {
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(33, 33, 192, 0.932);
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
