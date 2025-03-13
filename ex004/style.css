@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.blue-block, .red-block {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: flex 0.5s ease-in-out, font-size 0.5s ease-in-out;
+    overflow: hidden;
+    text-align: center;
+}
+
+.blue-block {
+    background-color: blue;
+}
+
+.red-block {
+    background-color: red;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .blue-block, .red-block {
+        font-size: 2em;
+    }
+}
