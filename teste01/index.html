@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide();
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+
+        });
+        //Neste exemplo, dois botões são usados para esconder e mostrar um parágrafo de texto usando os métodos hide() e show() do jQuery.
+    </script>
+</head>
+<body>
+    <button id="hide">Esconder</button>
+    <button id="show">Mostrar</button>
+    <p>Este é um parágrafo de exemplo.</p>
+</body>
+</html>
+
+    
+        const _ = require('lodash');<br>
+        const array = [1, 2, 3, 4, 5];<br>
+        const doubled = _.map(array, (num) => num * 2);<br>
+        console.log(doubled); // [2, 4, 6, 8, 10] 
+
+        <!--(Neste exemplo, o método map do Lodash é usado para criar um array novo com os valores do array original multiplicados por dois.)
+    
