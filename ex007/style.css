@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.grid-container {
+    display: grid; /* para ativar o modo de grade*/
+    grid-template-columns: repeat (3, 1fr);/* repeat(3, 1fr);" define três colunas de igual largura*/
+    gap: 10px;/*espaçamento entre os itens da grade*/
+}
+
+.row {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
