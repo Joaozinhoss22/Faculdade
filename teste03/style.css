@@ -122,8 +122,10 @@ h1 {
     color: rgba(255, 125, 3, 0.801);
 }
 
-img#tres{
+.imagem{
     border-radius: 100%;
+    justify-items: center;
+    
 }
 
 h2 {
@@ -136,6 +138,8 @@ h2 {
 p {
     color: white;
     text-align: start;
+    display: flex;
+    flex: auto;
 }
 
 .contato {
@@ -152,51 +156,46 @@ main {
 .grid{
     gap: 1rem;
     display: flex;
-    overflow-x: auto;
 }
 
 
 .grid-item {
     background-color: #f4f4f4;
     padding: 1rem;
-    border: 1px solid #ddd;
     text-align: center;
     display: flex;
-    overflow-x: auto;
 }
 
 
 img {
     transition: transform 2s;
     cursor: pointer;
+  
   }
 
   img:hover {
     transform: scale(1.1);
   }
 
-
-
-
-
     
 @media (min-width: 758px){
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
+    img{
+      display: flex;
+      flex: auto;
     }
-    
+
+    h2 > p {
+      display: flex;
+      flex: auto;
+      display: flex;
+    }
+
 
 }
 
-@media (max-width: 1024px) {
-    .grid {
-        grid-template-columns: repeat(4,1fr);
-       
+@media (max-width: 1200px) {
+    img{
+      display: flex;
+      flex: auto;
     }
-    header {
-        display: none;
-    }
-
-    
-    
 }
