@@ -7,31 +7,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Restaurante 43</h1>
-    </header>
-    <main>
-        <section class="menu">
-            <h2>Nosso Menu:</h2>
-            <div class="grid">
-                <div class="grid-item"><img src="pexels-tilapia-prato1.jpg" alt="Peixe"></div>
-                <div class="grid-item"><img src="pexels-sopa-prato2.jpg" alt=""></div>
-                <div class="grid-item"><img src="pexels-pixabay-262897.jpg" alt=""></div>
-                <div class="grid-item"><img src="pexels-sopa-prato2.jpg" alt=""></div>
+    
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
             </div>
-        </section>
+            <nav class="nav" id="nav">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </nav> 
+          </div>
+          
+          <div class="menu-bg" id="menu-bg"></div>
+
+
+
+    <header>
+        <h1><img id="tres" src="443-removebg-preview.png" alt="">Restaurante 43</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas asperiores repudiandae voluptate, tempore iste necessitatibus reiciendis maxime beatae, et laboriosam optio, voluptatem quibusdam aut mollitia dolorem! Velit beatae amet sequi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ut facere minima unde in reiciendis qui maxime eum maiores fugit adipisci facilis cupiditate dignissimos, deleniti excepturi natus, repellat illo provident.</p>
         <section class="contato">
             <h2>Contato:</h2>
             <p>Telefone: +55 12 3907-3758</p>
             <p>Endereço: Av Estrutura, N°123</p>
         </section>
+    </header>
+    <main>
+        <section class="menu">
+            <h2>Nosso Menu:</h2>
+            <div class="grid">
+                <img src="pexels-tilapia-prato1.jpg" alt="Peixe">
+                <img src="pexels-sopa-prato2.jpg" alt="">
+                <img src="pexels-pixabay-262897.jpg" alt="">
+                <img src="pexels-sopa-prato2.jpg" alt="">
+            </div>
+        </section>
+        <section>
+            <h2>Quem Somos:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, consequuntur, nobis nisi voluptatem fugit illo minus vero adipisci tempore exercitationem quaerat repudiandae similique! Itaque error est, hic laboriosam molestiae dolorum.</p>
+        </section>
         <section class="gallery">
             <h2>Galeria de Fotos</h2>
             <div class="grid">
-                <div class="grid-item"><img src="pexels-espetinho-foto1.jpg" alt=""></div>
-                <div class="grid-item"><img src="pexels-foto-2.jpg" alt=""></div>
-                <div class="grid-item"><img src="pexels-valeriya-foto3.jpg" alt=""></div>
-                <div class="grid-item"><img src="pexels-steve-foto4.jpg" alt=""></div>
+                <img src="pexels-espetinho-foto1.jpg" alt="">
+                <img src="pexels-foto-2.jpg" alt="">
+                <img src="pexels-valeriya-foto3.jpg" alt="">
+                <img src="pexels-steve-foto4.jpg" alt="">
             </div>
         </section>
     </main>
@@ -40,3 +66,5 @@
     </footer>
 </body>
 </html>
+
+<script src="script.js"></script>
