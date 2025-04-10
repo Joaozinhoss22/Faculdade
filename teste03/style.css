@@ -170,7 +170,6 @@ main {
 img {
     transition: transform 2s;
     cursor: pointer;
-  
   }
 
   img:hover {
@@ -187,7 +186,6 @@ img {
     h2 > p {
       display: flex;
       flex: auto;
-      display: flex;
     }
 
 
