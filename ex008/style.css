@@ -45,6 +45,24 @@ body {
     margin: 5px;
 }
 
+
+
+.itens{
+    background-color: #4CAF50;
+}
+
+.pricing-table {
+    width: 400px;
+    height: 50px;
+    border-collapse: collapse;
+    
+}
+
+th , td {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 10px;
+    
+}
 @media (max-width: 768px) {
     .nav-links {
         display: none;

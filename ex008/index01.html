@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech Solution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">AgroTech</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="Contatos">Contatos</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="content">
+        <h2>Contatos</h2>
+        <form id="content-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section id="pricing">
+        <h2>Tabelas de Precos</h2>
+        <table class="pricing-table">
+            <thead>
+                <tr class="itens">
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Unidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ração</td>
+                    <td>R$ 280.00</td>
+                    <td>Pacote</td>
+                </tr>
+                <tr>
+                    <td>Ração</td>
+                    <td>R$ 15.00</td>
+                    <td>Kg</td>
+                </tr>
+                <tr>
+                    <td>Pesticida</td>
+                    <td>R$ 390.00</td>
+                    <td>ltrs</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
