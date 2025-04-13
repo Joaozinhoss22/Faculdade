@@ -27,14 +27,20 @@
     <section id="content">
         <h2>Contatos</h2>
         <form id="content-form">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
+            <div  class="campo">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu Nome" autocomplete="name" required>
+            </div>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu E-mail" autocomplete="email" required>
+            </div>
 
-            <label for="message">Mensagem:</label>
-            <textarea name="message" id="message" rows="4"></textarea>
+            <div  class="campo">
+                <label for="message">Mensagem:</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+            </div>
 
             <button type="submit">Enviar</button>
         </form>

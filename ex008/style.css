@@ -11,7 +11,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #4CAF50;
-    padding: 10px 20px;
+    padding: 10px;
+    
 }
 
 .logo {
@@ -45,17 +46,71 @@ body {
     margin: 5px;
 }
 
+.campo{
+    text-align: left;
+}
 
+.campo > input{
+    border: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+#content-form {
+    margin: auto;
+    width: 50%;
+    padding: 6vw;
+    background-color: #d3d3d367;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+}
+
+.campo {
+    display: block;
+    padding: 15px;
+    position: relative;
+    font-size: 18px;
+    
+}
+
+button {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
 
 .itens{
     background-color: #4CAF50;
 }
 
 .pricing-table {
-    width: 400px;
+    
+    width: 100vw;
     height: 50px;
     border-collapse: collapse;
-    
 }
 
 th , td {
@@ -63,6 +118,7 @@ th , td {
     padding: 10px;
     
 }
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
