@@ -6,8 +6,8 @@ let dragging = false;
 
 
 gallery.addEventListener('touchstart', (e) => {
-    startX = e.touches[0].clientX ;
-    dragging = true ;
+    startX = e.touches[0].clientX;
+    dragging = true;
 });
 
 gallery.addEventListener('touchmove', (e) => {
